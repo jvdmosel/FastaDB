@@ -1,5 +1,9 @@
 # FastaDB
 Simple database based on [TFClass](http://tfclass.bioinf.med.uni-goettingen.de/)
+## Usage
+``` console 
+python src/main.py
+```
 ## Examples:
 Output non-aligned sequences for given species:
 ``` console 
