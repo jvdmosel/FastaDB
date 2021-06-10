@@ -128,7 +128,7 @@ def main():
     id_regx = re.compile("^((([0-9]{1,2}\.){1,4}[0-9]{1,2})|^[0-9])(\s-a){0,1}$")
     spec_regx = re.compile("^[A-Z]([a-z]*)(\s([a-z]*)){1,2}$")
     comp_regx = re.compile("^\-comp(\s(([0-9]{1,2}\.){3,4}[0-9]{1,2})){2}$")
-    print("Please type in queries as specified by the report. For help type in -help, to exit the program use -exit.")
+    print("Please type in queries as specified by the readme. For help type in -help, to exit the program use -exit.")
     try:
         while True:
             query = input()
